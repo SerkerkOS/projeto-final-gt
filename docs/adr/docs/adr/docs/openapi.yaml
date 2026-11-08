@@ -1,0 +1,27 @@
+openapi: 3.1.0
+info:
+  title: API de Pedidos - Geração Tech
+  version: 1.0.0
+paths:
+  /pedidos:
+    get:
+      summary: Lista todos os pedidos
+      responses:
+        "200":
+          description: Sucesso
+    post:
+      summary: Cria um novo pedido
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                cliente:
+                  type: string
+                produto:
+                  type: string
+      responses:
+        "201":
+          description: Pedido criado com sucesso

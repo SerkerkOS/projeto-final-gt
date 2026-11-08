@@ -1,0 +1,19 @@
+{
+  "name": "projeto-final-gt",
+  "version": "1.0.0",
+  "description": "Projeto final do curso de Full Cycle feito por Kauan Bastos Mendes ",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2",
+    "supertest": "^7.3.2"
+  }
+}
